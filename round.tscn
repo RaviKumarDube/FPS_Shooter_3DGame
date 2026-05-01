@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://cprsh8sxr7dpq"]
+
+[ext_resource type="ArrayMesh" uid="uid://bt7si7bnjd3j0" path="res://Assets/kenney_nature-kit/Models/OBJ format/fence_bend.obj" id="1_tccmb"]
+
+[node name="curve wood" type="Node3D" unique_id=835340316]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=105947019]
+mesh = ExtResource("1_tccmb")

@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://biwh2khykldsd"]
+
+[ext_resource type="ArrayMesh" uid="uid://bh7y723uwahyo" path="res://Assets/kenney_nature-kit/Models/OBJ format/fence_gate.obj" id="1_x0d2t"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_3veuu"]
+size = Vector3(1, 0.5, 0.1)
+
+[node name="road" type="Node3D" unique_id=562928360]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=276612038]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=576443156]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1, 0.46)
+shape = SubResource("BoxShape3D_3veuu")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D" unique_id=1807143971]
+mesh = ExtResource("1_x0d2t")

@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://cv6vjojtng3gc"]
+
+[ext_resource type="ArrayMesh" uid="uid://bpeoub5bmgxd6" path="res://Assets/kenney_city-kit-roads/Models/OBJ format/road-end.obj" id="1_8khr0"]
+
+[node name="Node3D" type="Node3D" unique_id=1136212991]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1941387739]
+mesh = ExtResource("1_8khr0")

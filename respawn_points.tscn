@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://b2k3imtq5us0o"]
+
+[node name="RespawnPoints" type="Node3D" unique_id=756596513]
+
+[node name="Marker3D" type="Marker3D" parent="." unique_id=1182629196]
+
+[node name="Marker3D2" type="Marker3D" parent="." unique_id=1517689152]
+
+[node name="Marker3D3" type="Marker3D" parent="." unique_id=166064231]
+
+[node name="Marker3D4" type="Marker3D" parent="." unique_id=1911583755]
+
+[node name="Marker3D5" type="Marker3D" parent="." unique_id=2097094251]

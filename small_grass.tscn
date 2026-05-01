@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://cmhv4r8hd504i"]
+
+[ext_resource type="ArrayMesh" uid="uid://bjfmsd1n4637q" path="res://Assets/kenney_nature-kit/Models/OBJ format/grass.obj" id="1_npo0s"]
+
+[node name="small_grass" type="Node3D" unique_id=1895722409]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=92347420]
+mesh = ExtResource("1_npo0s")

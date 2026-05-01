@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://bicf0j5leih7x"]
+
+[ext_resource type="ArrayMesh" uid="uid://btas3vi2k88cp" path="res://Assets/kenney_nature-kit/Models/OBJ format/statue_head.obj" id="1_01fnw"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_221rt"]
+radius = 0.4
+height = 1.3
+
+[node name="Node3D" type="Node3D" unique_id=1034111928]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=744285658]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=1156315510]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.45, 0)
+shape = SubResource("CapsuleShape3D_221rt")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D" unique_id=953513623]
+mesh = ExtResource("1_01fnw")

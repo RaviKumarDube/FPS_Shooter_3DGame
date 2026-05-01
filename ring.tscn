@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://14koapww1ld4"]
+
+[ext_resource type="ArrayMesh" uid="uid://dx6hxirp6y2om" path="res://Assets/kenney_nature-kit/Models/OBJ format/statue_ring.obj" id="1_ln3uk"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_jiui3"]
+height = 0.7
+radius = 0.3
+
+[node name="Node3D" type="Node3D" unique_id=402806342]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=1691532140]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=1384705352]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.35, 0)
+shape = SubResource("CylinderShape3D_jiui3")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D" unique_id=1697062277]
+mesh = ExtResource("1_ln3uk")

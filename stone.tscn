@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://bynxv3mu55634"]
+
+[ext_resource type="ArrayMesh" uid="uid://ruluh2lalj5e" path="res://Assets/kenney_nature-kit/Models/OBJ format/path_stone.obj" id="1_6s6ed"]
+
+[node name="stone" type="Node3D" unique_id=1768697482]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1948631905]
+mesh = ExtResource("1_6s6ed")

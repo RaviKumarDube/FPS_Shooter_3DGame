@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://bex1sn4522mp3"]
+
+[ext_resource type="ArrayMesh" uid="uid://cbndd704wvsf8" path="res://Assets/kenney_city-kit-roads/Models/OBJ format/tile-low.obj" id="1_4ydhq"]
+
+[node name="Node3D" type="Node3D" unique_id=903973635]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=264230072]
+mesh = ExtResource("1_4ydhq")

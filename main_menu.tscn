@@ -1,0 +1,94 @@
+[gd_scene format=3 uid="uid://dxsw22nu1mhy2"]
+
+[ext_resource type="Script" uid="uid://gqvyfwbha2nc" path="res://main_menu.gd" id="1_06t4h"]
+[ext_resource type="Texture2D" uid="uid://cbo0ftmajks1u" path="res://Assets/kenney_nature-kit/Sample_edited.png" id="2_7vrkn"]
+
+[sub_resource type="SystemFont" id="SystemFont_7vrkn"]
+
+[sub_resource type="Theme" id="Theme_7vrkn"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_fu7sn"]
+
+[node name="MainMenu" type="Control" unique_id=318384056]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_06t4h")
+
+[node name="Label" type="Label" parent="." unique_id=1273813440]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.47500002
+anchor_right = -0.47500002
+offset_left = 420.0
+offset_top = 3.0
+offset_right = 758.0
+offset_bottom = 99.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 1, 0.79999995, 1)
+theme_override_fonts/font = SubResource("SystemFont_7vrkn")
+theme_override_font_sizes/font_size = 70
+text = "FPS GAME"
+
+[node name="StartButton" type="Button" parent="." unique_id=36501391]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 121.0
+offset_top = 536.0
+offset_right = 407.0
+offset_bottom = 624.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_7vrkn")
+theme_override_colors/font_color = Color(0.28161496, 0.5483896, 1, 1)
+theme_override_font_sizes/font_size = 33
+theme_override_icons/icon = SubResource("ViewportTexture_fu7sn")
+text = "Start Game"
+
+[node name="QuitButton" type="Button" parent="." unique_id=994033097]
+layout_mode = 0
+offset_left = 736.0
+offset_top = 539.0
+offset_right = 1041.0
+offset_bottom = 628.0
+theme_override_colors/font_color = Color(1, 0, 0.016666412, 1)
+theme_override_font_sizes/font_size = 33
+text = "Quit"
+
+[node name="SampleEdited" type="Sprite2D" parent="." unique_id=1819312311]
+position = Vector2(640, 315.875)
+scale = Vector2(2.2429574, 1.0537975)
+texture = ExtResource("2_7vrkn")
+
+[node name="background" type="TextureRect" parent="." unique_id=775724984]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -537.0
+offset_top = -168.0
+offset_right = 580.0
+offset_bottom = 450.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 6
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=93340973]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 1241.0
+offset_top = 85.0
+offset_right = 2400.0
+offset_bottom = 741.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2

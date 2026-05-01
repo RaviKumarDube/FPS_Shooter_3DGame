@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://b0iipbhy040kr"]
+
+[ext_resource type="ArrayMesh" uid="uid://dlb261307wxo5" path="res://Assets/kenney_nature-kit/Models/OBJ format/statue_block.obj" id="1_g2tbl"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_g2tbl"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_oq5cr"]
+size = Vector3(0.4, 0.4, 0.4)
+
+[node name="Node3D" type="Node3D" unique_id=97882971]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=1510970417]
+physics_material_override = SubResource("PhysicsMaterial_g2tbl")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=392236532]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.4901161e-08, 0.19999997, -1.4901161e-08)
+shape = SubResource("BoxShape3D_oq5cr")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D/CollisionShape3D" unique_id=545839116]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.4901161e-08, -0.19999997, 1.4901161e-08)
+mesh = ExtResource("1_g2tbl")

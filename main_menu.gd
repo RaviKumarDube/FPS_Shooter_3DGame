@@ -1,0 +1,16 @@
+extends Control
+
+func _ready():
+	# Connect buttons
+	$StartButton.pressed.connect(_on_start_pressed)
+	$QuitButton.pressed.connect(_on_quit_pressed)
+
+func _on_start_pressed():
+	print("Start clicked")  # Debug check
+
+	# IMPORTANT: use correct path
+	get_tree().change_scene_to_file("res://main.tscn")
+
+func _on_quit_pressed():
+	print("Quit clicked")  # Debug check
+	get_tree().quit()
