@@ -1,1 +1,142 @@
-# FPS_Shooter_3DGame
+# FPS Shooter 3D Game
+
+A first-person shooter (FPS) game developed with the Godot Engine using GDScript.
+
+## Overview
+
+FPS_Shooter_3DGame is a 3D first-person shooter game built with Godot Engine. This project showcases game development fundamentals including player controls, weapon mechanics, enemy AI, and immersive 3D gameplay.
+
+## Features
+
+- **3D First-Person Perspective**: Immersive first-person shooter gameplay
+- **Player Movement**: Smooth character controller with WASD movement
+- **Weapon System**: Multiple weapons with different firing mechanics
+- **Enemy AI**: Intelligent enemy behavior and pathfinding
+- **Level Design**: Multi-level gameplay with varied environments
+- **Sound & Visual Effects**: Audio effects and particle systems
+
+## Technology Stack
+
+- **Engine**: Godot Engine
+- **Language**: GDScript
+- **Platform**: Cross-platform (Windows, macOS, Linux)
+
+## Requirements
+
+- Godot Engine 4.0+ (or appropriate version for your project)
+- Basic system requirements for running 3D games
+
+## Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/RaviKumarDube/FPS_Shooter_3DGame.git
+   cd FPS_Shooter_3DGame
+   ```
+
+2. **Open in Godot Engine**:
+   - Launch Godot Engine
+   - Click "Open Project" and select the project folder
+   - The project will load automatically
+
+3. **Run the game**:
+   - Click the Play button (▶) or press `F5` to run the game in the editor
+   - Press `F6` to run the main scene
+
+## Controls
+
+| Key | Action |
+|-----|--------|
+| `W` `A` `S` `D` | Move forward, left, backward, right |
+| `Space` | Jump |
+| `Mouse` | Look around |
+| `Left Click` | Fire weapon |
+| `E` | Interact/Pick up items |
+| `ESC` | Pause menu |
+
+## Project Structure
+
+```
+FPS_Shooter_3DGame/
+├── scenes/              # Game scenes and levels
+├── scripts/             # GDScript files for game logic
+├── assets/              # 3D models, textures, and sprites
+├── audio/               # Sound effects and music
+├── project.godot        # Godot project configuration
+└── README.md            # This file
+```
+
+## Game Mechanics
+
+### Player
+- First-person camera system with mouse look
+- Customizable movement speed and jump height
+- Health system with damage feedback
+
+### Weapons
+- Multiple weapon options with unique characteristics
+- Ammunition system and reload mechanics
+- Weapon switching capabilities
+
+### Enemies
+- AI-driven enemy behavior
+- Pathfinding and pursuit mechanics
+- Different enemy types with unique abilities
+
+### Level Progression
+- Multiple levels with increasing difficulty
+- Checkpoint system for progress saving
+- Score and performance tracking
+
+## How to Build
+
+To export the game as a standalone executable:
+
+1. Go to `Project` → `Export` in Godot Editor
+2. Configure export templates for your desired platform
+3. Click `Export Project` and choose your destination
+
+## Contributing
+
+Contributions are welcome! If you'd like to improve this project:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is available under an open-source license. Please check the LICENSE file for details.
+
+## Author
+
+**Ravi Kumar Dube** - [GitHub Profile](https://github.com/RaviKumarDube)
+
+## Acknowledgments
+
+- Godot Engine community for excellent documentation and tutorials
+- Contributors and testers who help improve the game
+
+## Troubleshooting
+
+### Game won't start
+- Ensure Godot Engine version matches project requirements
+- Check that all assets are properly imported
+- Verify script errors in the debugger console
+
+### Performance issues
+- Adjust graphics settings (resolution, effects quality)
+- Optimize 3D models and textures
+- Profile using Godot's built-in profiler
+
+## Getting Help
+
+- Check Godot's [official documentation](https://docs.godotengine.org/)
+- Visit the [Godot community forums](https://forum.godotengine.org/)
+- Open an issue on this repository for project-specific questions
+
+---
+
+**Happy gaming! 🎮**
