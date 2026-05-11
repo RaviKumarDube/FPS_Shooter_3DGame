@@ -10,10 +10,8 @@ FPS_Shooter_3DGame is a 3D first-person shooter game built with Godot Engine. Th
 
 - **3D First-Person Perspective**: Immersive first-person shooter gameplay
 - **Player Movement**: Smooth character controller with WASD movement
-- **Weapon System**: Multiple weapons with different firing mechanics
 - **Enemy AI**: Intelligent enemy behavior and pathfinding
 - **Level Design**: Multi-level gameplay with varied environments
-- **Sound & Visual Effects**: Audio effects and particle systems
 
 ## Technology Stack
 
@@ -60,8 +58,7 @@ FPS_Shooter_3DGame is a 3D first-person shooter game built with Godot Engine. Th
 FPS_Shooter_3DGame/
 ├── scenes/              # Game scenes and levels
 ├── scripts/             # GDScript files for game logic
-├── assets/              # 3D models, textures, and sprites
-├── audio/               # Sound effects and music
+├── assets/              # 3D models, textures, and sprites             
 ├── project.godot        # Godot project configuration
 └── README.md            # This file
 ```
@@ -71,7 +68,7 @@ FPS_Shooter_3DGame/
 ### Player
 - First-person camera system with mouse look
 - Customizable movement speed and jump height
-- Health system with damage feedback
+
 
 ### Weapons
 - Multiple weapon options with unique characteristics
@@ -81,12 +78,6 @@ FPS_Shooter_3DGame/
 ### Enemies
 - AI-driven enemy behavior
 - Pathfinding and pursuit mechanics
-- Different enemy types with unique abilities
-
-### Level Progression
-- Multiple levels with increasing difficulty
-- Checkpoint system for progress saving
-- Score and performance tracking
 
 ## How to Build
 
