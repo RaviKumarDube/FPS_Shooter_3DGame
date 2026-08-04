@@ -83,9 +83,3 @@ Contributions are welcome! If you'd like to improve this project:
 - Optimize 3D models and textures
 - Profile using Godot's built-in profiler
 
-## Getting Help
-
-- Check Godot's [official documentation](https://docs.godotengine.org/)
-- Visit the [Godot community forums](https://forum.godotengine.org/)
-- Open an issue on this repository for project-specific question
----
