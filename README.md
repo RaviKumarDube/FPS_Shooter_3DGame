@@ -24,23 +24,6 @@ FPS_Shooter_3DGame is a 3D first-person shooter game built with Godot Engine. Th
 - Godot Engine 4.0+ (or appropriate version for your project)
 - Basic system requirements for running 3D games
 
-## Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/RaviKumarDube/FPS_Shooter_3DGame.git
-   cd FPS_Shooter_3DGame
-   ```
-
-2. **Open in Godot Engine**:
-   - Launch Godot Engine
-   - Click "Open Project" and select the project folder
-   - The project will load automatically
-
-3. **Run the game**:
-   - Click the Play button (▶) or press `F5` to run the game in the editor
-   - Press `F6` to run the main scene
-
 ## Controls
 
 | Key | Action |
@@ -75,17 +58,6 @@ FPS_Shooter_3DGame/
 - Ammunition system and reload mechanics
 - Weapon switching capabilities
 
-### Enemies
-- AI-driven enemy behavior
-- Pathfinding and pursuit mechanics
-
-## How to Build
-
-To export the game as a standalone executable:
-
-1. Go to `Project` → `Export` in Godot Editor
-2. Configure export templates for your desired platform
-3. Click `Export Project` and choose your destination
 
 ## Contributing
 
@@ -96,21 +68,10 @@ Contributions are welcome! If you'd like to improve this project:
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
-## License
-
-This project is available under an open-source license. Please check the LICENSE file for details.
-
-## Author
-
-**Ravi Kumar Dube** - [GitHub Profile](https://github.com/RaviKumarDube)
-
 ## Acknowledgments
 
 - Godot Engine community for excellent documentation and tutorials
 - Contributors and testers who help improve the game
-
-## Troubleshooting
 
 ### Game won't start
 - Ensure Godot Engine version matches project requirements
@@ -126,8 +87,5 @@ This project is available under an open-source license. Please check the LICENSE
 
 - Check Godot's [official documentation](https://docs.godotengine.org/)
 - Visit the [Godot community forums](https://forum.godotengine.org/)
-- Open an issue on this repository for project-specific questions
-
+- Open an issue on this repository for project-specific question
 ---
-
-**Happy gaming! 🎮**
